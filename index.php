@@ -1,3 +1,8 @@
+<?php
+  if(isset($_GET['data'])){
+    echo $_GET['data'];die;
+  }
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -13,6 +18,8 @@
     </style>
   </head>
   <body>
+    <script src="node_modules/jquery/dist/jquery.min.js"> </script>
+    <script src="js/readParse.js"> </script>
     <redoc spec-url='http://petstore.swagger.io/v2/swagger.json'></redoc>
     <script src="node_modules/redoc/bundles/redoc.standalone.js"> </script>
   </body>
