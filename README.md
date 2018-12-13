@@ -1,0 +1,2 @@
+# StandaloneReDoc
+Standalone example redoc
